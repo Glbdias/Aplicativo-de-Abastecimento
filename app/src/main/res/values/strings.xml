@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Abastecimento</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lblOdometro">Odômetro</string>
+    <string name="lblLitros">Litros</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="lblDataInicial"> 📅 Data Inicial (dd/mm/yyyy)</string>
+    <string name="lblDataFinal"> 📅 Data Final (dd/mm/yyyy)</string>
+    <string name="btnBuscar"> 🔎 Buscar</string>
+    <string name="btnLimpar">Limpar</string>
+    <string name="btnVoltar"> ◀️ Voltar</string>
+    <string name="lblCadastroAbastecimento"> ⛽ Cadastro de Abastecimento</string>
+    <string name="title_activity_abastecimentos"> ⛽ Cadastro de Abastecimentos</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📅 Data" />
+
+            <EditText
+                android:id="@+id/txtData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lblOdometro" />
+
+            <EditText
+                android:id="@+id/txtOdometro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lblLitros" />
+
+            <EditText
+                android:id="@+id/txtLitros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+            <Spinner
+                android:id="@+id/spinnerFiltro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnCadastrar" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnVoltar" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
