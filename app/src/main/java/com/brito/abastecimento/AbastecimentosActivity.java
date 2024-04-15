@@ -73,48 +73,10 @@ public class AbastecimentosActivity extends AppCompatActivity {
                 || txtLitros.getText().toString().isEmpty()) {
                     Toast.makeText(getApplicationContext(), "⚠\uFE0F ⚠\uFE0F Informar data odômetro, litros e combustível", Toast.LENGTH_SHORT).show();
                 } else {
-
-
-//                abastecimento = new Abastecimentos(txtData.getText().toString(),
-//                        Float.parseFloat(String.valueOf(txtOdometro.getText())),
-//                        Float.parseFloat(String.valueOf(txtLitros.getText())),
-//                        spinner.getSelectedItem().toString());
-//
-//                Consulta.addAbastecimento(abastecimento);
-
-
-                    abastecimento = new Abastecimentos("01/01/2024",
-                            Float.parseFloat("14576"),
-                            Float.parseFloat("45"),
-                            "Gasolina");
-
-                    Consulta.addAbastecimento(abastecimento);
-
-                    abastecimento = new Abastecimentos("17/01/2024",
-                            Float.parseFloat("14786"),
-                            Float.parseFloat("40"),
-                            "Álcool");
-
-                    Consulta.addAbastecimento(abastecimento);
-
-                    abastecimento = new Abastecimentos("03/02/2024",
-                            Float.parseFloat("14966"),
-                            Float.parseFloat("48"),
-                            "Álcool");
-
-                    Consulta.addAbastecimento(abastecimento);
-
-                    abastecimento = new Abastecimentos("15/02/2024",
-                            Float.parseFloat("15178"),
-                            Float.parseFloat("46"),
-                            "Gasolina");
-
-                    Consulta.addAbastecimento(abastecimento);
-
-                    abastecimento = new Abastecimentos("01/03/2024",
-                            Float.parseFloat("15428"),
-                            Float.parseFloat("49"),
-                            "Gasolina");
+                    abastecimento = new Abastecimentos(txtData.getText().toString(),
+                            Float.parseFloat(String.valueOf(txtOdometro.getText())),
+                            Float.parseFloat(String.valueOf(txtLitros.getText())),
+                            spinner.getSelectedItem().toString());
 
                     Consulta.addAbastecimento(abastecimento);
                     finish();
